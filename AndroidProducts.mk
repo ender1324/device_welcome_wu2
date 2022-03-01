@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_Smartphone.mk
+    $(LOCAL_DIR)/omni_wu2.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_Smartphone-user \
-    omni_Smartphone-userdebug \
-    omni_Smartphone-eng
+    omni_wu2-user \
+    omni_wu2-userdebug \
+    omni_wu2-eng

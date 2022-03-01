@@ -5,4 +5,4 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-LOCAL_PATH := device/smartphone/Smartphone
+LOCAL_PATH := device/welcome/wu2

@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/smartphone/Smartphone
+DEVICE_PATH := device/welcome/wu2
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -18,7 +18,7 @@ TARGET_CPU_ABI2 := armeabi
 TARGET_CPU_VARIANT := generic
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := Smartphone
+TARGET_OTA_ASSERT_DEVICE := wu2
 
 # Bootloader"
 TARGET_BOOTLOADER_BOARD_NAME := 1585878550
@@ -46,8 +46,8 @@ BOARD_MKBOOTIMG_ARGS += --tags_offset $(BOARD_KERNEL_TAGS_OFFSET)
 BOARD_KERNEL_IMAGE_NAME := zImage-dtb
 TARGET_KERNEL_ARCH := arm
 TARGET_KERNEL_HEADER_ARCH := arm
-TARGET_KERNEL_SOURCE := kernel/smartphone/Smartphone
-TARGET_KERNEL_CONFIG := Smartphone_defconfig
+TARGET_KERNEL_SOURCE := kernel/welcome/wu2
+TARGET_KERNEL_CONFIG := wu2_defconfig
 
 # Platform
 TARGET_BOARD_PLATFORM := mt6580
